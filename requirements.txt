@@ -88,6 +88,7 @@ future
 gensim
 glob2
 greenlet
+gunicorn
 h5py
 HeapDict
 holoviews
