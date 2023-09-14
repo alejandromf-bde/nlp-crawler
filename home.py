@@ -62,9 +62,9 @@ def update_output(n_clicks, domain, language):
         print('Estas son las urls:', urls)
         tfidf_sorting = nlp.compute_tfidf_for_urls(urls, language)
         top_words_tf_idf = nlp.get_top_n_words(tfidf_sorting)
-        top_words = []
-        for words in top_words_tf_idf:
-            top_words.append(nlp.get_most_similar_words(words))
+    #    top_words = []
+    #    for words in top_words_tf_idf:
+    #        top_words.append(nlp.get_most_similar_words(words))
 
         children = []
         for url, words in zip(urls, top_words_tf_idf):
