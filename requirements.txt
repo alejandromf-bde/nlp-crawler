@@ -142,7 +142,6 @@ langcodes
 lazy_loader
 lazy-object-proxy
 libarchive-c
-libmambapy
 linkify-it-py
 llvmlite
 lmdb
