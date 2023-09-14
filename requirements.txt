@@ -30,7 +30,7 @@ binaryornot==0.4.4
 black
 bleach==4.1.0
 blis==0.7.10
-bokeh==3.2.1
+bokeh
 boltons==23.0.0
 boto3==1.24.28
 botocore==1.27.59
