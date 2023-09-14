@@ -218,11 +218,6 @@ pyparsing
 PySocks
 pytest
 python-snappy
-pytoolconfig
-pywin32
-pywin32-ctypes
-pywinpty
-PyYAML
 regex
 requests
 requests-file
