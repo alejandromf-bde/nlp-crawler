@@ -219,7 +219,6 @@ PySocks
 pytest
 python-snappy
 pytoolconfig
-pytz
 pywin32
 pywin32-ctypes
 pywinpty
@@ -242,11 +241,6 @@ service-identity
 setuptools
 sip
 six
-smart-open
-sniffio
-snowballstemmer
-sortedcontainers
-soupsieve
 spacy
 spacy-legacy
 spacy-loggers
