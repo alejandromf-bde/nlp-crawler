@@ -155,7 +155,6 @@ matplotlib
 matplotlib-inline
 mccabe
 mdit-py-plugins
-menuinst
 mistune
 mkl-fft
 mkl-random
