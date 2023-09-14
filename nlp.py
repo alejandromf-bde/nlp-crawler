@@ -20,17 +20,17 @@ from gensim.models import KeyedVectors
 
 #word_vectors.save(r'medium_cc.es.300.kv')
 
-word_vectors = KeyedVectors.load("medium_cc.es.300.kv", mmap='r')
+#word_vectors = KeyedVectors.load("medium_cc.es.300.kv", mmap='r')
 
 #word_vectors = KeyedVectors.load("small_cc.es.300.kv", mmap='r')
 
 # print(word_vectors.index_to_key[0:10])
 # print(type(word_vectors.index_to_key))
 
-stop = list(set(list(STOP_WORDS) + word_vectors.index_to_key[0:100]))
+#stop = list(set(list(STOP_WORDS) + word_vectors.index_to_key[0:100]))
 
-top_1000_words = word_vectors.index_to_key[:2000]
-top_1000_vectors = [word_vectors[word] for word in top_1000_words]
+#top_1000_words = word_vectors.index_to_key[:2000]
+#top_1000_vectors = [word_vectors[word] for word in top_1000_words]
 
 
 def get_most_similar_words(top_words, ngrupos = 6, n_words_target = 6):
@@ -84,11 +84,11 @@ def get_most_similar_words(top_words, ngrupos = 6, n_words_target = 6):
     return similar_words
 
 # Supongamos que estas son las palabras obtenidas con TF-IDF
-tfidf_words = ['abril', 'mayo', 'martes', 'luna', 'caballo', 'estrella', 'nube', 'esotérico', 'pasta', 'sensual']
-similar_result = get_most_similar_words(tfidf_words)
-print(similar_result)
+#tfidf_words = ['abril', 'mayo', 'martes', 'luna', 'caballo', 'estrella', 'nube', 'esotérico', 'pasta', 'sensual']
+#similar_result = get_most_similar_words(tfidf_words)
+#print(similar_result)
 
-print(similar_result[3]==similar_result[5])
+#print(similar_result[3]==similar_result[5])
 
 
 
