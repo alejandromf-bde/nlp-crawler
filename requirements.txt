@@ -220,7 +220,6 @@ pytest
 python-snappy
 pytoolconfig
 pytz
-pyviz-comms
 pywin32
 pywin32-ctypes
 pywinpty
@@ -229,11 +228,8 @@ regex
 requests
 requests-file
 rope
-Rtree
 ruamel.yaml
 ruamel-yaml-conda
-s3fs
-s3transfer
 sacremoses
 scikit-image
 scikit-learn
