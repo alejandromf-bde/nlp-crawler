@@ -215,10 +215,6 @@ PyNaCl
 pyodbc
 pyOpenSSL
 pyparsing
-PyQt5
-PyQt5-sip
-PyQtWebEngine
-pyrsistent
 PySocks
 pytest
 python-snappy
